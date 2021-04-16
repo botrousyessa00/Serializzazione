@@ -24,7 +24,7 @@ public class Serializzazione {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Studente s = new Studente("Cristian", "Nicola", 18);
+        Studente s = new Studente("Yessa", "Botrous", 17);
 
         try {
             FileOutputStream FO = new FileOutputStream("test.ser");
